@@ -1,0 +1,15 @@
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+	char a;
+	int b;
+	float c;
+	printf("enter your name");
+	scanf("%s,&a");
+	printf("enter your roll no.");
+	scanf("%d",&b);
+	printf("enter your marks");
+	scanf("%f",&c);
+	return 0;
+}
