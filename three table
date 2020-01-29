@@ -1,0 +1,19 @@
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+	int a,b,c,d,e,f,g;
+	printf("enter no.\n and let me give U,\n table of enter no. ");
+	scanf("%d",&a);
+	printf("table are \n\n");
+	for(b=1;b<11;b++)
+	{
+		c=a*b;
+		d=a+1;
+		e=d*b;
+		f=a-1;
+		g=f*b;
+		printf("%d*%d=%d   %d*%d=%d  %d*%d=%d\n",f
+	,b,g,a,b,c,d,b,e);
+	}
+}
