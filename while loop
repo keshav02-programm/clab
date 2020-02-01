@@ -1,0 +1,18 @@
+#include<conio.h>
+#include<stdio.h>
+int main()
+{
+	int a,b,c;
+	printf("enter your no.=");
+	scanf("%d",&a);
+	b=1;
+	
+		while(b<11)
+		{		
+		c=a*b;
+		printf("%d*%d=%d\n",a,b,c);
+		
+	b++;
+}
+	
+}
